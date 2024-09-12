@@ -59,7 +59,7 @@ loader.load('scene.gltf', (gltf) => {
     }
   });
 
-  mesh.position.set(0, -0.05, -1);
+  mesh.position.set(0, -0.05, 0);
   scene.add(mesh);
 
   document.getElementById('progress-container').style.display = 'none';
